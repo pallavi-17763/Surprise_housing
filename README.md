@@ -14,16 +14,12 @@ The company is looking at prospective properties to buy to enter the market. You
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+ Model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
 Below features are important for price prediction
-
 - GrLivArea      
 - TotalBsmtSF    
 - OverallQual    
@@ -34,38 +30,27 @@ Below features are important for price prediction
 - Fireplaces     
 - YearRemodAdd   
 - LotArea       
-Recommendations for Business
-
-Investigaing in properties with Basement.
-Locatality preference should be Crawford & Somerst
-Property overall size should high so if Garage is not there, business can provision it to increase prices.
-Properties with Overall Quality rating between Fair(3) to (7) should be considered. Because with repair\renovation work, property prices can be increased.
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
 
 ## Technologies Used
-python 3
-pandas
-numpy
-seaborn
-sklearn
-matplotlib
+ Python - version 3.9.12
+- numpy library - version 1.21.5
+- pandas library - version 1.4.2
+- seaborn library - version 0.11.2
+- matplotlib.pyplot library - version 3.5.1
+- sklearn.model_selection - train_test_split
+- sklearn.preprocessing - MinMaxScaler
+- sklearn.feature_selection - RFE
+- sklearn.linear_model - LinearRegression
+- statsmodels.api
+- statsmodels.stats.outliers_influence - variance_inflation_factor
+- jupyter notebook - version 6.4.8
+
+  ## Acknowledgements
+Give credit here.
+- This project was inspired by Upgrad.
+- Referenced from Google, Case Study live session and Stack-Overflow (the famous one)
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by Pallavi Gupta : (https://github.com/pallavi-17763)  - feel free to contact me!
