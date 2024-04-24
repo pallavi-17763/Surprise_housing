@@ -22,18 +22,34 @@ The company is looking at prospective properties to buy to enter the market. You
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Below features are important for price prediction
 
+- GrLivArea      
+- TotalBsmtSF    
+- OverallQual    
+- OverallCond   
+- YearBuilt      
+- LandSlope      
+- 2ndFlrSF       
+- Fireplaces     
+- YearRemodAdd   
+- LotArea       
+Recommendations for Business
+
+Investigaing in properties with Basement.
+Locatality preference should be Crawford & Somerst
+Property overall size should high so if Garage is not there, business can provision it to increase prices.
+Properties with Overall Quality rating between Fair(3) to (7) should be considered. Because with repair\renovation work, property prices can be increased.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+python 3
+pandas
+numpy
+seaborn
+sklearn
+matplotlib
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
