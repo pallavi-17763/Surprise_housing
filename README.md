@@ -46,7 +46,6 @@ Below features are important for price prediction
 - jupyter notebook - version 6.4.8
 
   ## Acknowledgements
-Give credit here.
 - This project was inspired by Upgrad.
 - Referenced from Google, Case Study live session and Stack-Overflow (the famous one)
 
